@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 
+&mt {
+    tapping-term-ms = <270>;
+};
+
+
 / {
   macros {
     macro_name: macro_name {
