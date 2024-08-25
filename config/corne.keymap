@@ -9,19 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-&mt {
-    tapping-term-ms = <270>;
-};
-
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-  };
-  
   macros {
     macro_name: macro_name {
         label = "my_macro";
@@ -38,7 +26,7 @@
 };
 
 
-/ {
+
         keymap {
                 compatible = "zmk,keymap";
 
