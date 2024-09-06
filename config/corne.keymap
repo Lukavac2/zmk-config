@@ -47,6 +47,7 @@ conditional_layers {
         #binding-cells = <0>;
         wait-ms = <50>;
         tap-ms = <50>;
+        bindings
         = <&macro_press   &kp LGUI>
         , <&macro_press   &kp LSHFT>
         , <&macro_tap     &kp N4>
