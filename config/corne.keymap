@@ -26,16 +26,18 @@ conditional_layers {
 
 
   macros {
-    macro_name: macro_name {
-        label = "my_macro";
+    macro_eur: macro_eur {
+        label = "my_macroForEur";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <40>;
         tap-ms = <40>;
         bindings
         = <&macro_press   &kp LALT>
-        , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N8>
+        , <&macro_press   &kp LSHFT>    
+        , <&macro_tap     &kp N2>
         , <&macro_release &kp LALT>
+        , <&macro_release &kp LSHFT>
         ;
     };
 };
