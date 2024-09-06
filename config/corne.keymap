@@ -91,7 +91,7 @@ conditional_layers {
                 raise_layer {
 
                         bindings = <
-&kp EQUAL &kp AT &kp AMPS &kp HASH &kp DLLR &kp PRCNT &kp TILDE &trans &trans &trans &trans &kp BSPC &mt RPAR LPAR &mt GT LT &kp GRAVE &kp CARET &kp SQT &kp DQT &kp QMARK &trans &trans &trans &trans &kp DEL &mt RBKT LBKT &mt RBRC LBRC &kp PIPE &macro_mac &mt SEMI COLON &kp UNDER &kp EXCL &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+&kp EQUAL &kp AT &kp AMPS &kp HASH &kp DLLR &kp PRCNT &kp TILDE &trans &trans &trans &trans &kp BSPC &mt RPAR LPAR &mt GT LT &kp GRAVE &kp CARET &kp SQT &kp DQT &kp QMARK &trans &trans &trans &trans &kp DEL &mt RBKT LBKT &mt RBRC LBRC &kp PIPE &macro_eur &mt SEMI COLON &kp UNDER &kp EXCL &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 >;
                 };
                 adjust_layer {
